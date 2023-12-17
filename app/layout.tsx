@@ -9,8 +9,7 @@ import { ModalProvider } from "@/components/providers/modal-provider";
 import { SocketProvider } from "@/components/providers/socket-provider";
 import { QueryProvider } from "@/components/providers/query-provider";
 
-const font = Open_Sans({ subsets: ["latin"] });
-
+const font = Open_Sans({ subsets: ["latin"], preload: true });
 export const metadata: Metadata = {
   title: "Anurag's Chat Application",
   description: "Chat application made by Anurag",
